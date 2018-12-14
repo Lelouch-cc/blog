@@ -1,0 +1,6 @@
+.con {
+  width: 100%;
+  min-height: 50px;
+  background-color: rgba(10, 10, 10, 0.7);
+  box-shadow: 0px 0px 8px black;
+}
