@@ -1,0 +1,62 @@
+.infoCon {
+  width: 100%;
+}
+
+cardCon {
+  width: 100%;
+}
+
+.cardBg {
+  width: 100%;
+}
+
+.img {
+  display: block;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.infos {
+  width: 100%;
+  font-size: 12px;
+  line-height: 18px;
+  padding: 15px;
+  text-align: center;
+  color: #333;
+}
+
+.portrait {
+  width: 100%;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.avatar {
+  width: 110px;
+  height: 110px;
+  display: block;
+  margin: -81px auto 0;
+  border-radius: 50%;
+}
+
+.name {
+  width: 100%;
+  text-align: center;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 31.5px;
+}
+
+.introduce {
+  font-size: 14px;
+  line-height: 21px;
+  padding: 5px 15px;
+  text-align: center;
+}
+
+.bg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
