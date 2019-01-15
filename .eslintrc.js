@@ -25,6 +25,7 @@ module.exports = {
 		"use-isnan": 2,
 		// 变量初始化时不能直接给它赋值为 undefined
 		"no-undef-init": 2,
+		"no-undef": 0,
 		// 强制驼峰法命名
 		"camelcase": 2,
 		// 禁止混用 tab 和空格
@@ -88,7 +89,9 @@ module.exports = {
 		// 禁止直接修改 this.state
     "react/no-direct-mutation-state": "error",
     // 禁止使用一元操作符 ++ 和 --
-    "no-plusplus": 0,
+		"no-plusplus": 0,
+		// 禁止连续赋值
+		"no-multi-assign": 0,
 		"react/destructuring-assignment": [0, "always"],
 		"react/prefer-stateless-function": 0,
     "react/no-access-state-in-setstate": 0,

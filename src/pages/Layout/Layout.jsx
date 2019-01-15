@@ -6,6 +6,7 @@ import ROUTES from '../../config/routes.config';
 
 import Info from '../../components/Info/Info';
 import MenuTitle from '../../components/MenuTitle/MenuTitle';
+import Live2d from '../../components/Live2d/Live2d';
 
 import Style from './index.module.css';
 
@@ -59,6 +60,7 @@ class Layout extends Component {
               </Row>
             </div>
           </div>
+          <Live2d />
         </div>
       </Router>
     );
